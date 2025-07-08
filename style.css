@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  max-width: 600px;
+  margin: auto;
+  background-color: #f0f4f7;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+label, select, input, button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+}
+
+button {
+  padding: 10px;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0051a3;
+}
+
+#resultado {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e0ffe0;
+  border: 1px solid #ccc;
+}
+
+#imagem img {
+  max-width: 100%;
+  margin: 10px 0;
+}
