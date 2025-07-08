@@ -1,3 +1,4 @@
+/* style.css */
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
@@ -11,7 +12,10 @@ h1 {
   color: #333;
 }
 
-label, select, input, button {
+label,
+select,
+input,
+button {
   display: block;
   width: 100%;
   margin: 10px 0;
