@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Calculadora de Figuras Planas</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>Calculadora de Figuras Geométricas Planas</h1>
+  <label for="figura">Escolha a figura:</label>
+  <select id="figura" onchange="mostrarCampos()">
+    <option value="">-- Selecione --</option>
+    <option value="triangulo">Triângulo</option>
+    <option value="quadrado">Quadrado</option>
+    <option value="retangulo">Retângulo</option>
+    <option value="circulo">Círculo</option>
+    <option value="losango">Losango</option>
+    <option value="trapezio">Trapézio</option>
+    <option value="quadrilatero">Quadrilátero</option>
+  </select>
+
+  <div id="imagem"></div>
+  <form id="formMedidas"></form>
+  <button onclick="calcular()">Calcular</button>
+  <div id="resultado"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
